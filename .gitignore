@@ -1,0 +1,27 @@
+# Python Virtual Environments
+venv/
+.venv/
+
+# Environment Variables File (IMPORTANT for security)
+.env
+
+# Python Caches & Artifacts
+__pycache__/
+*.pyc
+
+# Trained Models (these are often large)
+*.pth
+*.pkl
+
+# Data Folders (usually too large for Git)
+data/
+raw_data/
+processed_data/
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
