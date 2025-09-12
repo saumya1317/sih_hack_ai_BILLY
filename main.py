@@ -27,7 +27,7 @@ except KeyError:
 # Initialize the FastAPI App
 app = FastAPI(
     title="Nagar Seva AI Assistant",
-    description="Uses the Gemini API to classify civic issues in Bhagalpur and route them to the correct department.",
+    description="Uses the clasical ml , resnet50 to classify civic issues in Bhagalpur and route them to the correct department.",
     version="2.0.0 (Hackathon Edition)"
 )
 
@@ -125,4 +125,5 @@ async def classify_endpoint(
 
 @app.get("/")
 def root():
+
     return {"message": "Welcome to the Nagar Seva Hackathon API!"}
