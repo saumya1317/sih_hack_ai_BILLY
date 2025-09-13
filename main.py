@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import io
 import os
 import json
@@ -127,7 +127,7 @@ async def classify_endpoint(
 @app.get("/")
 def root():
     return {"message": "Welcome to the Nagar Seva Hackathon API!"}
-=======
+
 import io
 import os
 import json
@@ -257,4 +257,4 @@ async def classify_endpoint(
 def root():
 
     return {"message": "Welcome to the Nagar Seva Hackathon API!"}
->>>>>>> 04d199e9d97d523f53ce56e78475404f3467943a
+
