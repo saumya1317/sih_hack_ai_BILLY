@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 fastapi
 uvicorn[standard]
 google-generativeai
 Pillow
+=======
+fastapi
+uvicorn[standard]
+google-generativeai
+Pillow
+>>>>>>> 04d199e9d97d523f53ce56e78475404f3467943a
 python-multipart
